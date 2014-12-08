@@ -1,0 +1,167 @@
+
+.brand.navbar-brand
+{
+	font-family: 'Montserrat', sans-serif;
+	color: #FFF;
+}
+
+a.navbar-brand.brand {
+	font-size: 28px;
+}
+
+body {
+	/* Background pattern from subtlepatterns.com */
+	background-image: url('noisy_grid.png');
+	background-repeat: repeat;
+	background-color: transparent ! important;
+	color: #51534a;
+}
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6,
+p {
+	color: #51534a;
+}
+
+h1
+{
+	border-bottom: 2px solid #51534a;
+	padding-bottom: 5px;
+	font-family: 'Montserrat', sans-serif;
+}
+
+img.content-secondary
+{
+	max-width: 100%;
+}
+
+img.img-responsive.img-rounded
+{
+	margin: 0px auto 0px auto;
+}
+
+h3.list-group-item,
+.list-group-item h4,
+a.list-group-item
+{
+	font-family: 'Quando', serif;
+	/* background-color: #E6E6E6; */
+}
+
+.well {
+	background-color: #fff
+}
+
+.navbar .active
+{
+	background-color: #E6E6E6;
+}
+
+.navbar, .dropdown-menu
+{
+	background-color: #84bd00;
+	border-color: #51534a;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+	color: #fff;
+}
+
+.navbar-inverse .navbar-nav>li>a:hover, .navbar-inverse .navbar-nav>li>a:focus { 
+	color: #51534a;
+}
+
+.dropdown-menu li a,
+.dropdown-menu li a span
+{
+	color: white;
+}
+
+.container p
+{
+	max-width: 600px;
+}
+
+.jumbotron {
+	background-color: #fff;
+}
+
+.jumbotron p{
+	max-width: 100%;
+}
+
+.front .thumbnail,
+.front a{
+	/*min-height: 420px;*/
+	text-decoration: none;
+	color: inherit;
+}
+
+.front .thumbnail img{
+	max-height: 230px;
+}
+
+u {
+	text-decoration:none;
+	border-bottom: 1px solid #000;
+	padding-bottom: 2px;
+}
+
+@media (max-width: 992px) 
+{
+	h1
+	{
+		font-size: 24px;
+	}
+}
+@media (min-width: 992px) 
+{
+	img.content-secondary
+	{
+		width: 80%;
+		margin: 0px auto 10px auto;
+	}
+	
+	.img-scroller {
+		width: 455px;
+	}
+	.img-scroller.affix {
+		position: inherit;
+		top: 30px;
+	}
+	.img-scroller.affix.img {
+		position: relative;
+	}
+	.col-md-12 p {
+		display: block;
+		margin: auto;
+	}
+}
+@media (min-width: 600px) 
+{
+	h1, h3, h4
+	{
+		text-align: center;
+	}
+	
+	.frontp,
+	.content
+	{
+		width: 50%;
+		margin: 0px auto 10px auto;
+	}
+	
+	/*
+	.container p,
+	*:not(.navbar) > .container ul:not(.list-group)
+	{
+		width: 50%;
+		margin: 0px auto 10px auto;
+	}
+	*/
+	
+	
+}
+
+@media (max-width: 600px) {
+	.sm-hide { display: none; }
+}
